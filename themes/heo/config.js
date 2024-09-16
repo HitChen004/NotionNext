@@ -22,8 +22,8 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '与提升认知',
   HEO_HERO_TITLE_3: 'Yangai.fun',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_5: '最新推荐资讯',
+  HEO_HERO_TITLE_LINK: 'https://www.yangai.fun/recomment',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
