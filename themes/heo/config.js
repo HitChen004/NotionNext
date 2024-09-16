@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欧易okx发福利了,完成账户注册后即可获得最高 50 USDT（折合人民币350元） 的奖励', url: 'https://www.hongdadaijia.com/join/4821874' },
+    { title: 'ChatGPT账号、【奈飞、Spotify、Youtube、Disney+、HBO】等流媒体服务（账号租赁）', url: 'https://nf.video/D83AP' }
   ],
 
   // 英雄区左右侧组件颠倒位置
