@@ -23,14 +23,14 @@ const Footer = ({ title }) => {
 
       <br />
 
-      {/* 底部页面信息 */}
+{/* 底部页面信息 */}
       <div
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-         {/* NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '} */}
-         {siteConfig('TITLE')}<i className='fas fa-copyright' />{' '}
-         {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
+          {/* NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '} */}
+          {siteConfig('TITLE')} <i className='fas fa-copyright' />{' '}
+          {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
           <a
             href={siteConfig('LINK')}
             className='underline font-bold dark:text-gray-300 '>
@@ -38,8 +38,11 @@ const Footer = ({ title }) => {
           </a>
           .
         </div>
-       本站所有资源收集整理于网络,本站不参与制作,用于互联网爱好者学习和研究,如不慎侵犯了您的权利,请及时联系站长处理删除。敬请谅解！ 侵权删帖/违法举报/投稿等联系邮箱（#替换成@）：echo.qingwen#gmail.com
-      </div>
+
+        <div>
+          本站所有资源收集整理于网络,本站不参与制作,用于互联网爱好者学习和研究,如不慎侵犯了您的权利,请及时联系站长处理删除。敬请谅解！ 侵权删帖/违法举报/投稿等联系邮箱（#替换成@）：echo.qingwen#gmail.com
+        </div>
+
         <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
